@@ -1,0 +1,38 @@
+.timeline {
+  padding-top: 10px;
+}
+.work-place {
+  padding-bottom: 10px;
+  display: flex;
+
+  .test {
+
+  }
+
+  img {
+    width: 40px;
+    height: auto;
+  }
+
+  .work-desc {
+    display: block;
+    padding-left: 20px;
+
+    div {
+      padding-bottom: 5px;
+    }
+
+    .company {
+      font-size: 95%;
+    }
+
+    .role {
+      font-size: 80%;
+    }
+
+    .period {
+      font-size: 70%;
+      opacity: 0.5;
+    }
+  }
+}
