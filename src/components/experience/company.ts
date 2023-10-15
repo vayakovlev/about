@@ -1,6 +1,6 @@
 import bscLogo from "../../images/logo-bsc.svg"
 import senseLogo from "../../images/sense.png"
-import vsluLogo from "../../images/vlsulogo.svg"
+import vsluLogo from "../../images/vlsulogo.png"
 
 export const COMPANIES = [
     {
