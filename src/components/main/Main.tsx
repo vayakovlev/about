@@ -23,8 +23,8 @@ export class Main extends Component<{}> {
                 <p>Nice to meet you, stranger! My name is <span className="hint">Viktor Yakovlev</span> and I am a
                     backend software developer. I
                     usually write code in&nbsp;
-                    <Language name="Java"/>/
                     <Language name="Kotlin"/>/
+                    <Language name="Java"/>/
                     <Language name="Groovy"/>.
                 </p>
                 <p>In my free time I like exploring new technologies, doing some experiments in my home lab and learning
@@ -34,11 +34,19 @@ export class Main extends Component<{}> {
                     <ul>
                         <li>Playing guitar</li>
                         <li>Cycling</li>
+                        <li>Riding motorcycles</li>
                         <li>Learning English</li>
                         <li>Games</li>
+                        <li>Reading books</li>
                         <li>Selfhosted way</li>
                     </ul>
-
+                </p>
+                <p>Languages:
+                    <ul>
+                        <li>Russian - Native</li>
+                        <li>English - B1</li>
+                        <li>German&nbsp;&nbsp;- A1</li>
+                    </ul>
                 </p>
             </div>
         );
