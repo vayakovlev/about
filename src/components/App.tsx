@@ -4,7 +4,6 @@ import {Header} from "./header/Header";
 
 import "../styles/common.scss"
 import {Main} from "./main/Main";
-import {Experience} from "./experience/Experience";
 
 function App() {
     return (
@@ -12,7 +11,6 @@ function App() {
             <Header/>
             <div id="content">
                 <Main/>
-                <Experience/>
             </div>
         </div>
     );
