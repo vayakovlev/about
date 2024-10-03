@@ -45,7 +45,6 @@ export class Main extends Component<{}> {
                     <ul>
                         <li>Russian - Native</li>
                         <li>English - B1</li>
-                        <li>German&nbsp;&nbsp;- A1</li>
                     </ul>
                 </p>
             </div>
