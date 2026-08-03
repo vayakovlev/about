@@ -1,0 +1,95 @@
+:root {
+  --main-color: #DDE6ED;
+  --background-color: #27374D;
+  --logo-color: #9DB2BF;
+  --hint-color: #c34b87;
+  --big-font-size: 1.2rem;
+  --mid-font-size: 1rem;
+  --small-font-size: 0.8rem;
+}
+
+@font-face {
+  font-family: PeaceSans;
+  src: url("fonts/Peace Sans Webfont.ttf"),
+  url("fonts/Peace Sans.otf") format("trytype");
+}
+
+@font-face {
+  font-family: JetBrains;
+  src: url("fonts/JetBrainsMono-Regular.woff2"),
+  url("fonts/JetBrainsMono-Bold.woff2");
+}
+
+body {
+  background: var(--background-color);
+  color: var(--main-color);
+  font-family: "JetBrains", serif;
+}
+
+.hint {
+  color: var(--hint-color);
+  font-weight: bold;
+}
+
+.application {
+  padding: 0 10px;
+  font-size: var(--small-font-size);
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  .application {
+    padding: 0 50px;
+    font-size: var(--mid-font-size);
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .application {
+    padding: 0 70px;
+    font-size: var(--big-font-size);
+  }
+}
+
+.header-box {
+  display: flex;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.header-box .header-left {
+  vertical-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-box .header-left .header {
+  margin-right: 20px;
+}
+
+.header-box .header-left .header .logo-name {
+  font-family: "PeaceSans", sans-serif;
+  font-size: 150%;
+  color: var(--logo-color);
+}
+
+.header-box .header-left .links {
+  margin-top: 7px;
+  min-width: 250px;
+}
+
+.header-box .header-left .links .link {
+  margin-right: 10px;
+  margin-top: 10px;
+  color: var(--main-color);
+}
+
+.header-box .header-left .links .link svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  vertical-align: -0.125em;
+}
+
+.list-paragraph {
+  margin: 1em 0;
+}
